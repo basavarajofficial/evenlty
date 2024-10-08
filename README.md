@@ -1,2 +1,0 @@
-# evently
-Task Management Tool
