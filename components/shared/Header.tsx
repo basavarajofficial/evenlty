@@ -16,8 +16,8 @@ import Logo from './Logo'
 function Header() {
 
   return (
-    <header className='w-full border-b shadow-md dark:border-gray-600 dark:bg-gray-900'>
-        <nav className='max-w-7xl w-full lg:mx-auto md:px-10 xl:px-0 p-4 md:py-4 flex justify-between items-center'>
+    <header className='border-b shadow-md dark:border-gray-700 dark:bg-gray-900'>
+        <nav className='wrapper flex justify-between items-center'>
             <Logo width={138} height={42} />
 
             <SignedIn>

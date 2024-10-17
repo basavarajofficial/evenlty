@@ -15,13 +15,14 @@ import Image from "next/image"
 import { Separator } from "../ui/separator"
 import NavItems from "./NavItems"
 import Logo from "./Logo"
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 function MobileNav() {
   return (
     <nav className="md:hidden">
     <Sheet>
       <SheetTrigger asChild>
-        <Image src='/assets/icons/menu.svg' alt="menu" width={24} height={24}  />
+        <HiOutlineMenuAlt3 size={23} />
       </SheetTrigger>
       <SheetContent className="flex flex-col items-center gap-6 md:hidden">
         <Logo width={138} height={42} />
